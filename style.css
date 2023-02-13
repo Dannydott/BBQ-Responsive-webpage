@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.flex-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url("images/jon-tyson-kctt4tL1dkE-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-width {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-section {
+  height: 100%;
+  margin-top: 50px;
+}
+
+.register-sub-title {
+  margin-bottom: 1.5rem;
+}
+
+.main-page-paragraph {
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 70%;
+  padding: 15px 25px;
+  margin-bottom: 1.2rem;
+}
+
+.register-button {
+  width: 70%;
+  padding: 15px 25px;
+  background: linear-gradient(#ff713b, #ff713b);
+  margin-bottom: 1.2rem;
+}
