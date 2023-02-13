@@ -13,12 +13,16 @@ body {
   margin: 0 auto;
 }
 
+/* image section */
+
 .background {
   background-image: url("images/jon-tyson-kctt4tL1dkE-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
   width: 100%;
+  background-color: grey;
+  background-blend-mode: multiply;
 }
 
 .flex-item {
@@ -26,6 +30,35 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+}
+
+.top-title {
+  color: #f18119;
+  font-size: 10px;
+  text-transform: uppercase;
+  border-top: 8px solid #f18119;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+}
+
+.bottom-title {
+  color: #f18119;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+/* image section */
+
+/* text section */
+
+.text-section {
+  height: 100%;
+  margin-top: 50px;
 }
 
 .text-width {
@@ -39,16 +72,20 @@ body {
   flex-direction: column;
 }
 
-.text-section {
-  height: 100%;
-  margin-top: 50px;
+h3 {
+  font-size: 21px;
+  color: #404040;
 }
 
 .register-sub-title {
+  font-size: 16px;
+  color: #f18119;
   margin-bottom: 1.5rem;
 }
 
 .main-page-paragraph {
+  font-size: 16px;
+  color: #b3b2b2;
   margin-bottom: 1.5rem;
 }
 
@@ -56,6 +93,8 @@ input {
   width: 70%;
   padding: 15px 25px;
   margin-bottom: 1.2rem;
+  text-align: center;
+  font-size: 15px;
 }
 
 .register-button {
@@ -63,4 +102,15 @@ input {
   padding: 15px 25px;
   background: linear-gradient(#ff713b, #ff713b);
   margin-bottom: 1.2rem;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
 }
+
+.privacy-paragraph {
+  color: #989898;
+  font-size: 12px;
+}
+
+/* text section ends */
