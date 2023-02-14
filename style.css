@@ -115,7 +115,7 @@ input {
 
 /* text section ends */
 
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 700px) {
   .flex-container {
     display: flex;
   }
@@ -124,5 +124,20 @@ input {
   }
   .text-width {
     justify-content: center;
+  }
+  .flex-item {
+    width: 50%;
+  }
+  body {
+    font-size: 1.125rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 1.75rem;
   }
 }
