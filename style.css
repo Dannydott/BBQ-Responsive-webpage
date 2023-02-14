@@ -114,3 +114,15 @@ input {
 }
 
 /* text section ends */
+
+@media only screen and (min-width: 940px) {
+  .flex-container {
+    display: flex;
+  }
+  .flex-item {
+    height: 100vh;
+  }
+  .text-width {
+    justify-content: center;
+  }
+}
